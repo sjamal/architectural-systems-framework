@@ -1,0 +1,17 @@
+# Demonstrates Positive/Negative Space Principle:
+# Explicitly defines the failure boundary (negative space) between services.
+
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  DeadLetterQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: SystemFailureVoidQueue
+
+  PrimaryProcessingQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: PrimaryTaskQueue
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt DeadLetterQueue.Arn
+        maxReceiveCount: 3
