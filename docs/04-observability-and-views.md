@@ -23,3 +23,7 @@
 * **Architectural Reference:** Lessons 39, 40, 41 (*Static vs. dynamic views across distance*)
 * **Principle:** Structures must convey distinct, coherent information when viewed from a distance, upon approach, and inside.
 * **IT Application:** Architect observability into three distinct operational strata: high-level aggregate health dashboards (distance), service trace flows (approach), and memory profiling/detailed logs (interior).
+
+---
+**Modules:** Previous: [Module 3: Governance, Process & Evolution](03-governance-and-process.md)  
+**Related docs:** [Main index](../README.md) · [Source and Scope](../README.md#source-and-scope) · [ADRs](../adrs/README.md) · [Code examples](../code-examples/README.md) · [Runbook](RUNBOOK.md)
