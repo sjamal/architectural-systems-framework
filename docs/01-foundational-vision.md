@@ -23,3 +23,7 @@
 * **Architectural Reference:** Lesson 21 (*An architect knows something about everything...*)
 * **Principle:** Structural engineering requires harmonizing disparate disciplines—physics, human movement, ergonomics, and economics.
 * **IT Application:** System designs must integrate software mechanics, infrastructure economics, regulatory compliance, and organizational dynamics. Avoid optimizing code at the expense of operational overhead or developer velocity.
+
+---
+**Modules:** Next: [Module 2: Structural & Spatial Integrity](02-structural-integrity.md)  
+**Related docs:** [Main index](../README.md) · [Source and Scope](../README.md#source-and-scope) · [ADR-001: Define the Parti](../adrs/ADR-001-parti-definition.md) · [Code examples](../code-examples/README.md) · [Runbook](RUNBOOK.md)

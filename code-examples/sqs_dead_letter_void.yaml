@@ -1,5 +1,7 @@
 # Demonstrates Positive/Negative Space Principle:
 # Explicitly defines the failure boundary (negative space) between services.
+# Principle: docs/02-structural-integrity.md#2-positive-and-negative-space-solid-vs-void
+# Validate: cfn-lint code-examples/sqs_dead_letter_void.yaml
 
 AWSTemplateFormatVersion: '2010-09-09'
 Resources:

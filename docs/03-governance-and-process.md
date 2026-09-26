@@ -29,3 +29,7 @@
 * **Architectural Reference:** Lesson 62 (*The arrival sequence sets expectations...*)
 * **Principle:** The transition into a space establishes operational mental models and trust.
 * **IT Application:** Standardize developer onboarding, CLI output formats, and initial API authentication handshakes to establish system reliability immediately.
+
+---
+**Modules:** Previous: [Module 2: Structural & Spatial Integrity](02-structural-integrity.md) · Next: [Module 4: Observability, Iteration & Modeling](04-observability-and-views.md)  
+**Related docs:** [Main index](../README.md) · [Source and Scope](../README.md#source-and-scope) · [ADRs](../adrs/README.md) · [Contributing](../CONTRIBUTING.md) · [Runbook](RUNBOOK.md)
